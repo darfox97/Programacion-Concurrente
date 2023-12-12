@@ -42,20 +42,19 @@ public class VntPrincipal extends JFrame{
 
         JLabel lblPista = new JLabel("");
         lblPista.setBounds(0, 0, 1020, 579);
-        lblPista.setIcon(new ImageIcon("C:\\Users\\dario\\eclipse-workspace\\carreraMultihilos\\assets\\pistaCarrera.jpg"));
+        lblPista.setIcon(new ImageIcon(".\\assets\\pistaCarrera.jpg"));
         layeredPane.add(lblPista, JLayeredPane.DEFAULT_LAYER);
 
         JLabel lblCorredor1 = new JLabel("");
-        lblCorredor1.setIcon(new ImageIcon("C:\\Users\\dario\\eclipse-workspace\\carreraMultihilos\\assets\\corrida-nike.gif"));
+        lblCorredor1.setIcon(new ImageIcon(".\\assets\\corrida-nike.gif"));
         lblCorredor1.setBounds(53, 40, 132, 192);
         layeredPane.add(lblCorredor1, JLayeredPane.PALETTE_LAYER);
         
         JLabel lblCorredor2 = new JLabel("");
         layeredPane.setLayer(lblCorredor2, 100);
-        lblCorredor2.setIcon(new ImageIcon("C:\\Users\\dario\\eclipse-workspace\\carreraMultihilos\\assets\\corredor2.gif"));
+        lblCorredor2.setIcon(new ImageIcon(".\\assets\\corredor2.gif"));
         lblCorredor2.setBounds(53, 351, 132, 192);
         layeredPane.add(lblCorredor2);
-        
         
 		JButton btnDetener = new JButton("Detener");
 		btnDetener.setFont(new Font("Tahoma", Font.PLAIN, 15));
